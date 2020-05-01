@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Resources/tiles.tres" type="TileSet" id=1]
+[ext_resource path="res://src/LevelTemplate/PerfectMazeMaker.gd" type="Script" id=2]
+
+[node name="MazeMaker" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2( 0.120743, 0.00652456 )
+tile_set = ExtResource( 1 )
+format = 1
+
+[node name="Camera2D" type="Camera2D" parent="."]
