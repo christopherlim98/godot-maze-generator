@@ -14,7 +14,7 @@ In the gif above, we use a recursive backtracking algorithm to build a maze.
 Data structure used: stacks and arrays.
 
 Pseudocode:
- 1. Generate array of all unvisited cells
+ > 1. Generate array of unvisited cells
  2. At current cell, add current cell to visited stack.
  3. Check neighbours.  
   3a. If neighbours exist, pick one at random and move in that direction. </br> 
