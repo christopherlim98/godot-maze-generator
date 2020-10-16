@@ -1,5 +1,4 @@
 # godot-maze-generator
- Using tutorial from KidsCanCode and assets from Kenney </br>
  Procedurally generates maze using the recursive backtracker algorithm </br>
 
 # credits </br>
