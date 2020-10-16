@@ -9,12 +9,12 @@ Over summer, I was inspired to make a game. Tower defense has been a big part of
 
 To begin, procedural generation has always fascinated me. I have watched a few videos about procedural generation in 3D games (e.g. No Man's Sky) and also looked at some theory behind it (e.g. perlin noise and pseudo-random numbers).
 
-In the gif above, we use a recursive backtracking algorithm to build a maze.
+In the gif above, we use a [recursive backtracking algorithm](https://www.geeksforgeeks.org/backtracking-algorithms/ "recursive backtracking algorithm") to build a maze.
 
 Data structure used: stacks and arrays.
 
-Pseudocode:
- > 1. Generate array of unvisited cells
+## Pseudocode
+ 1. Generate array of unvisited cells
  2. At current cell, add current cell to visited stack.
  3. Check neighbours.  
   3a. If neighbours exist, pick one at random and move in that direction. </br> 
